@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Sentry.AspNetCore" Version="5.3.0" />
+    <PackageReference Include="Sentry.Profiling" Version="5.3.0" />
+  </ItemGroup>
+
 </Project>

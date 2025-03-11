@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using App.Models;
+using Sentry;
 
 namespace App.Controllers;
 
@@ -21,6 +22,7 @@ public class ProductsController : Controller
     public IActionResult Create(Product product)
     {
         products.Add(product);
+        SentrySdk.CaptureException(new Exception("Hello Sentry"));
         return RedirectToAction("Index");
     }
 

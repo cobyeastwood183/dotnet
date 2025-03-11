@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "8gGWayh6p7Q=",
+  "dgSpecHash": "PfF9je3i4MI=",
   "success": true,
   "projectFilePath": "/Users/cobyeastwood/App/App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/cobyeastwood/.nuget/packages/microsoft.diagnostics.netcore.client/0.2.510501/microsoft.diagnostics.netcore.client.0.2.510501.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.diagnostics/9.0.0/microsoft.extensions.diagnostics.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.http/9.0.0/microsoft.extensions.http.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.logging.configuration/9.0.0/microsoft.extensions.logging.configuration.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.0/microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry/5.3.0/sentry.5.3.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.aspnetcore/5.3.0/sentry.aspnetcore.5.3.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.extensions.logging/5.3.0/sentry.extensions.logging.5.3.0.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.profiling/5.3.0/sentry.profiling.5.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

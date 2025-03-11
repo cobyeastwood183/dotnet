@@ -95,3 +95,14 @@
 /Users/cobyeastwood/App/obj/Debug/net9.0/App.pdb
 /Users/cobyeastwood/App/obj/Debug/net9.0/App.genruntimeconfig.cache
 /Users/cobyeastwood/App/obj/Debug/net9.0/ref/App.dll
+/Users/cobyeastwood/App/obj/Debug/net9.0/App.csproj.AssemblyReference.cache
+/Users/cobyeastwood/App/obj/Debug/net9.0/Sentry.Attributes.cs
+/Users/cobyeastwood/App/obj/Debug/net9.0/App.sourcelink.json
+/Users/cobyeastwood/App/bin/Debug/net9.0/Microsoft.Diagnostics.NETCore.Client.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Sentry.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Sentry.AspNetCore.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Sentry.Extensions.Logging.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Microsoft.Diagnostics.FastSerialization.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll
+/Users/cobyeastwood/App/bin/Debug/net9.0/Sentry.Profiling.dll
+/Users/cobyeastwood/App/obj/Debug/net9.0/App.csproj.Up2Date

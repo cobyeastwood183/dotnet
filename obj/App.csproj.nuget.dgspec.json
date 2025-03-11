@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Sentry.Profiling": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
