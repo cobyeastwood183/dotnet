@@ -16,6 +16,9 @@ namespace App.Services
 
             var checkInId = SentrySdk.CaptureCheckIn(monitorSlug, CheckInStatus.InProgress);
 
+            Console.WriteLine($"  Monitor Slug: {monitorSlug}");
+            Console.WriteLine($"  Check-in ID: {checkInId}");
+
             try
             {
                 Thread.Sleep(4000); // 4-second delay
