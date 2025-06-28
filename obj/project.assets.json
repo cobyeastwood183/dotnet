@@ -301,7 +301,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Sentry/5.3.0": {
+      "Sentry/5.11.2": {
         "type": "package",
         "compile": {
           "lib/net9.0/Sentry.dll": {
@@ -314,14 +314,15 @@
           }
         },
         "build": {
+          "buildTransitive/Sentry.props": {},
           "buildTransitive/Sentry.targets": {}
         }
       },
-      "Sentry.AspNetCore/5.3.0": {
+      "Sentry.AspNetCore/5.11.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "9.0.0",
-          "Sentry.Extensions.Logging": "5.3.0"
+          "Sentry.Extensions.Logging": "5.11.2"
         },
         "compile": {
           "lib/net9.0/Sentry.AspNetCore.dll": {
@@ -337,13 +338,13 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Sentry.Extensions.Logging/5.3.0": {
+      "Sentry.Extensions.Logging/5.11.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "9.0.0",
           "Microsoft.Extensions.Http": "9.0.0",
           "Microsoft.Extensions.Logging.Configuration": "9.0.0",
-          "Sentry": "5.3.0"
+          "Sentry": "5.11.2"
         },
         "compile": {
           "lib/net9.0/Sentry.Extensions.Logging.dll": {
@@ -356,11 +357,11 @@
           }
         }
       },
-      "Sentry.Profiling/5.3.0": {
+      "Sentry.Profiling/5.11.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Diagnostics.NETCore.Client": "0.2.510501",
-          "Sentry": "5.3.0"
+          "Sentry": "5.11.2"
         },
         "compile": {
           "lib/net9.0/Microsoft.Diagnostics.FastSerialization.dll": {
@@ -873,18 +874,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Sentry/5.3.0": {
-      "sha512": "zlBIP7YmYxySwcgapLMj1gdxPEz9rwdrOa4Yjub/TzcAaMQXusRH9hY4CE6pu0EIibZ7C7Hhjhr6xOTlyK8gFQ==",
+    "Sentry/5.11.2": {
+      "sha512": "oDzBGBUt8O/dzvSiGRePJVXKYVQdAV3D6bOdK0oSjR4AERVdEHfEHaFtXb0Mr4tGkhy7ZILeTyRUX0V62cCYEg==",
       "type": "package",
-      "path": "sentry/5.3.0",
+      "path": "sentry/5.11.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+        "analyzers/dotnet/cs/Sentry.SourceGenerators.dll",
         "build/Sentry.Native.targets",
+        "build/Sentry.SourceGenerators.targets",
+        "build/Sentry.props",
         "build/Sentry.targets",
         "buildTransitive/Sentry.Native.targets",
+        "buildTransitive/Sentry.SourceGenerators.targets",
+        "buildTransitive/Sentry.props",
         "buildTransitive/Sentry.targets",
         "lib/net462/Sentry.dll",
         "lib/net462/Sentry.xml",
@@ -908,11 +914,14 @@
         "lib/netstandard2.0/Sentry.xml",
         "lib/netstandard2.1/Sentry.dll",
         "lib/netstandard2.1/Sentry.xml",
+        "sentry-native/linux-arm64/libsentry-native.a",
+        "sentry-native/linux-musl-x64/libsentry-native.a",
         "sentry-native/linux-x64/libsentry-native.a",
         "sentry-native/osx/libsentry-native.a",
+        "sentry-native/win-arm64/sentry-native.lib",
         "sentry-native/win-x64/sentry-native.lib",
         "sentry-nuget.png",
-        "sentry.5.3.0.nupkg.sha512",
+        "sentry.5.11.2.nupkg.sha512",
         "sentry.nuspec",
         "tools/sentry-cli-Darwin-arm64",
         "tools/sentry-cli-Darwin-x86_64",
@@ -923,10 +932,10 @@
         "tools/sentry-cli-Windows-x86_64.exe"
       ]
     },
-    "Sentry.AspNetCore/5.3.0": {
-      "sha512": "zC2yhwQB0laYWGXLYDCsiKSIqleaEK3fUH9Z5t8Bgvfs2nGX0mHmh9oPqNAAbkVGvni56mhgHHCBxN/kpfkawA==",
+    "Sentry.AspNetCore/5.11.2": {
+      "sha512": "Dgk3Eu4mvxwwI+MXemddxgTYqEZOUHGcBCKB5Lr/Yzt+5UNWJoN0bJgUYGGap3NX/MNXYC6ODseIpzx6iJKHwA==",
       "type": "package",
-      "path": "sentry.aspnetcore/5.3.0",
+      "path": "sentry.aspnetcore/5.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -936,14 +945,14 @@
         "lib/net9.0/Sentry.AspNetCore.dll",
         "lib/net9.0/Sentry.AspNetCore.xml",
         "sentry-nuget.png",
-        "sentry.aspnetcore.5.3.0.nupkg.sha512",
+        "sentry.aspnetcore.5.11.2.nupkg.sha512",
         "sentry.aspnetcore.nuspec"
       ]
     },
-    "Sentry.Extensions.Logging/5.3.0": {
-      "sha512": "DPN6NXvO4LTH21UM2gUFJwSwVa/fuT3B/UZmQyfSfecqViXrZO7WFuKz/h592YUoGNCumyt8x045bxbz6j9btg==",
+    "Sentry.Extensions.Logging/5.11.2": {
+      "sha512": "fmttJI5GoG1xjlbUFDRWIDHiiyhQoA4ERSx96zmGJ8LYd6ewQTQctmTS9LeOfMEKHnu96Paug8TQwZGGlGpW1A==",
       "type": "package",
-      "path": "sentry.extensions.logging/5.3.0",
+      "path": "sentry.extensions.logging/5.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -955,14 +964,14 @@
         "lib/netstandard2.0/Sentry.Extensions.Logging.dll",
         "lib/netstandard2.0/Sentry.Extensions.Logging.xml",
         "sentry-nuget.png",
-        "sentry.extensions.logging.5.3.0.nupkg.sha512",
+        "sentry.extensions.logging.5.11.2.nupkg.sha512",
         "sentry.extensions.logging.nuspec"
       ]
     },
-    "Sentry.Profiling/5.3.0": {
-      "sha512": "3ELudu8b6rEz1VgiQjP/joOpiEYnbB6rX5LF5KPiEr0roaq/AKVWaIdFSk6M1EMAbABzCnP7guP2mPIOLSdc6g==",
+    "Sentry.Profiling/5.11.2": {
+      "sha512": "vsalkrocN/DBgDStU1DHaNrUpJBvHzl9zEyDrsMc8C4buRvQjAjovqc/BfZBp50N9yPn9qQwG55OWarKvvdC1Q==",
       "type": "package",
-      "path": "sentry.profiling/5.3.0",
+      "path": "sentry.profiling/5.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -982,15 +991,15 @@
         "lib/net9.0/Sentry.Profiling.dll",
         "lib/net9.0/Sentry.Profiling.xml",
         "sentry-nuget.png",
-        "sentry.profiling.5.3.0.nupkg.sha512",
+        "sentry.profiling.5.11.2.nupkg.sha512",
         "sentry.profiling.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Sentry.AspNetCore >= 5.3.0",
-      "Sentry.Profiling >= 5.3.0"
+      "Sentry.AspNetCore >= 5.11.2",
+      "Sentry.Profiling >= 5.11.2"
     ]
   },
   "packageFolders": {
@@ -999,11 +1008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cobyeastwood/App/App.csproj",
+      "projectUniqueName": "/Users/cobyeastwood/dotnet/App.csproj",
       "projectName": "App",
-      "projectPath": "/Users/cobyeastwood/App/App.csproj",
+      "projectPath": "/Users/cobyeastwood/dotnet/App.csproj",
       "packagesPath": "/Users/cobyeastwood/.nuget/packages/",
-      "outputPath": "/Users/cobyeastwood/App/obj/",
+      "outputPath": "/Users/cobyeastwood/dotnet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cobyeastwood/.nuget/NuGet/NuGet.Config"
@@ -1038,11 +1047,11 @@
         "dependencies": {
           "Sentry.AspNetCore": {
             "target": "Package",
-            "version": "[5.3.0, )"
+            "version": "[5.11.2, )"
           },
           "Sentry.Profiling": {
             "target": "Package",
-            "version": "[5.3.0, )"
+            "version": "[5.11.2, )"
           }
         },
         "imports": [

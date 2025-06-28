@@ -12,7 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/cobyeastwood/.nuget/packages/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sentry/5.11.2/buildTransitive/Sentry.props" Condition="Exists('$(NuGetPackageRoot)sentry/5.11.2/buildTransitive/Sentry.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgSentry Condition=" '$(PkgSentry)' == '' ">/Users/cobyeastwood/.nuget/packages/sentry/5.3.0</PkgSentry>
+    <PkgSentry Condition=" '$(PkgSentry)' == '' ">/Users/cobyeastwood/.nuget/packages/sentry/5.11.2</PkgSentry>
   </PropertyGroup>
 </Project>

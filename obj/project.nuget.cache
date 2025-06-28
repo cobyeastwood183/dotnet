@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PfF9je3i4MI=",
+  "dgSpecHash": "GlOYeB8DGzg=",
   "success": true,
-  "projectFilePath": "/Users/cobyeastwood/App/App.csproj",
+  "projectFilePath": "/Users/cobyeastwood/dotnet/App.csproj",
   "expectedPackageFiles": [
     "/Users/cobyeastwood/.nuget/packages/microsoft.diagnostics.netcore.client/0.2.510501/microsoft.diagnostics.netcore.client.0.2.510501.nupkg.sha512",
     "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
@@ -19,10 +19,10 @@
     "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
     "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.0/microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
     "/Users/cobyeastwood/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "/Users/cobyeastwood/.nuget/packages/sentry/5.3.0/sentry.5.3.0.nupkg.sha512",
-    "/Users/cobyeastwood/.nuget/packages/sentry.aspnetcore/5.3.0/sentry.aspnetcore.5.3.0.nupkg.sha512",
-    "/Users/cobyeastwood/.nuget/packages/sentry.extensions.logging/5.3.0/sentry.extensions.logging.5.3.0.nupkg.sha512",
-    "/Users/cobyeastwood/.nuget/packages/sentry.profiling/5.3.0/sentry.profiling.5.3.0.nupkg.sha512"
+    "/Users/cobyeastwood/.nuget/packages/sentry/5.11.2/sentry.5.11.2.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.aspnetcore/5.11.2/sentry.aspnetcore.5.11.2.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.extensions.logging/5.11.2/sentry.extensions.logging.5.11.2.nupkg.sha512",
+    "/Users/cobyeastwood/.nuget/packages/sentry.profiling/5.11.2/sentry.profiling.5.11.2.nupkg.sha512"
   ],
   "logs": []
 }
